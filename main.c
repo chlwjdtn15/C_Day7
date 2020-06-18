@@ -20,5 +20,18 @@ int main(void) {
   printf("c : %d\n", c);
   // 출력 => c : 220
 
+
+
+// 문제 : C언어에 있는 모든 포인터타입변수의 크기를 출력해주세요.
+
+  // 정수타입, 실수타입, 주소타입
+  
+  printf("%lu\n", sizeof(unsigned char));  
+
+  
+
+
+
+
   return 0;
 }
